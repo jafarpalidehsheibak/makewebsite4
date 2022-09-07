@@ -1,0 +1,125 @@
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+.content1{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+
+.content-above{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #333;
+    border-radius: 10px;
+    /* max-width: 75vw; */
+    align-content: center;
+    padding: 2rem;
+    margin-top: 6rem;
+}
+.content-above h1{
+    align-self: center;
+    padding: 10px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+.card{
+    display: flex;
+    border: 1px solid #333;
+    border-radius: 10px;
+    padding: 5px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgb(156, 148, 148);
+    width: 20%;
+}
+.card i{
+   font-size: 150px;
+    border-radius: 10px;
+    
+}
+.fa-wifi{
+    color: blue;
+}
+.fa-volume-high{
+    color: blueviolet;
+}
+.fa-globe{
+    color: rgb(52, 240, 209);
+}
+.fa-person-chalkboard{
+    color: darkgreen;
+}
+.asli{
+        display: flex;
+        /* flex-grow: unset; */
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #333;
+        margin-top: 15px;
+        width: 80%;
+        margin: 15px auto;
+        border-radius: 3px;
+}
+.managment{
+    display: flex;
+    flex-direction: column;
+    padding: 1px;
+    width: 100%;
+    margin: 1px;
+}
+.managment label{
+    align-self: center;
+}
+.managment input{
+    margin: 1px;
+}
+
+
+
+@media (max-width: 760px) {
+    nav ul {
+            display: flex;
+            list-style: none;
+            flex-direction: column;
+                justify-content: center;
+            align-items: center;
+            background-color: aquamarine;
+
+        }
+                nav ul li {
+                    padding: 15px;
+                }
+
+    .cards {
+                    display: flex;
+                    flex-direction: column;
+                    /* justify-content: space-around; */
+                    padding-top: 20px;
+                    
+                    
+                }
+                                .content1 {
+                                    display: flex;
+                                    justify-content: center;
+                                    /* align-content: center; */
+                                }
+                                .card{
+                                    margin-bottom: 20px;
+                                    background-color: gray;
+                                    width: 100%;
+                                }
+        .asli {
+            display: flex;
+         flex-direction: column;
+           width: 100%;
+        }
+}
